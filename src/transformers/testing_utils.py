@@ -799,7 +799,6 @@ def pytest_terminal_summary_main(tr, id):
 # the following code deals with async io between processes
 
 
-
 class _RunOutput:
     def __init__(self, returncode, stdout, stderr):
         self.returncode = returncode

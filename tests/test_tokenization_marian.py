@@ -30,7 +30,6 @@ if _sentencepiece_available:
     from transformers.tokenization_marian import save_json, vocab_files_names
 
 
-
 SAMPLE_SP = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures/test_sentencepiece.model")
 
 mock_tokenizer_config = {"target_lang": "fi", "source_lang": "en"}
